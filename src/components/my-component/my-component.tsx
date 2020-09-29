@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm <span class="name">{this.getText()}</span></div>;
+    return <div>Hello, World! I&#39;m <span class="name">{this.getText()}</span></div>;
   }
 }

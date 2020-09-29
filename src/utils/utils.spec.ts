@@ -1,3 +1,4 @@
+/* globals describe, it, expect */
 import { format } from './utils';
 
 describe('format', () => {

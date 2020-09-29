@@ -11,6 +11,7 @@
     "react/react-in-jsx-scope": 0,
     "react/no-unknown-property": 0,
     "react/jsx-no-bind": 0,
+    "react/jsx-one-expression-per-line": 0,
     "import/prefer-default-export": 0
   }
 }
