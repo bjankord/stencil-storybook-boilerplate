@@ -10,17 +10,17 @@ export class MyComponent {
   /**
    * The first name
    */
-  @Prop() first: string;
+  @Prop() first: string = 'Ralph';
 
   /**
    * The middle name
    */
-  @Prop() middle: string;
+  @Prop() middle: string = 'Waldo';
 
   /**
    * The last name
    */
-  @Prop() last: string;
+  @Prop() last: string = 'Emerson';
 
   private getText(): string {
     return format(this.first, this.middle, this.last);
