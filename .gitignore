@@ -29,3 +29,4 @@ docs/
 coverage/
 
 src/index.html
+storybook-static/

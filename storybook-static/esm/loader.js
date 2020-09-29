@@ -1,1 +1,0 @@
-import{p as promiseResolve,b as bootstrapLazy}from"./index-062b3785.js";const patchEsm=()=>promiseResolve(),defineCustomElements=(win,options)=>"undefined"==typeof window?Promise.resolve():promiseResolve().then(()=>bootstrapLazy([["my-component",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],options));export{defineCustomElements};
