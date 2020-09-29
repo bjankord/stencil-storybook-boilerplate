@@ -1,0 +1,1 @@
+import{p as promiseResolve,b as bootstrapLazy}from"./index-062b3785.js";const patchBrowser=()=>{const importMeta=import.meta.url,opts={};return""!==importMeta&&(opts.resourcesUrl=new URL(".",importMeta).href),promiseResolve(opts)};patchBrowser().then(options=>bootstrapLazy([["my-component",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],options));
