@@ -16,7 +16,7 @@
     "watch:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**/*{.ts,.tsx}",
     "stylelint": "stylelint '**/*.scss' --allow-empty-input",
-    "test": "stencil test --spec --coverage",
+    "test": "stencil test --spec --e2e --coverage",
     "build:storybook": "build-storybook",
     "build:stencil": "stencil build --docs",
     "predeploy": "yarn build:stencil && yarn build:storybook",
