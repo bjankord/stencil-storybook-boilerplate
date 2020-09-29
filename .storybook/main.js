@@ -8,7 +8,7 @@ const OUTPUT_DIR = '../dist';
 const PROJECT_NAME = 'web-components';
 
 module.exports = {
-  stories: ['../src/components/**/*.stories.mdx', '../src/components/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/components/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   // Custom webpack config to tell Storybook where to find the compiled files from Stencil
   async webpackFinal(config) {
