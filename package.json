@@ -1,0 +1,75 @@
+{
+  "name": "stencil-storybook-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Stencil Storybook Boilerplate",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.js",
+  "es2017": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "scripts": {
+    "watch": "run-p watch:stencil watch:storybook",
+    "watch:stencil": "stencil build --prod --watch --serve",
+    "watch:storybook": "start-storybook -p 6006",
+    "lint": "eslint src/**/*{.ts,.tsx}",
+    "stylelint": "stylelint '**/*.scss' --allow-empty-input",
+    "test": "stencil test --spec --coverage",
+    "build:storybook": "build-storybook",
+    "build:stencil": "stencil build --docs"
+  },
+  "dependencies": {
+    "@stencil/core": "2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@stencil/eslint-plugin": "^0.3.1",
+    "@stencil/sass": "^1.3.2",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/web-components": "^6.0.21",
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.10.1",
+    "@types/puppeteer": "3.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-typescript": "^10.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "jest-cli": "26.4.2",
+    "lit-html": "^1.3.0",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "5.2.1",
+    "react-is": "^16.13.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "jest": {
+    "preset": "@stencil/core/testing"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn stylelint && yarn test"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
