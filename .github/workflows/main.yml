@@ -9,5 +9,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - run: npm install
-      - run: npm test
+      - run: npm install -g yarn@1.x
+      - run: yarn install
+      - run: yarn lint
+      - run: yarn stylelint
+      - run: yarn test
