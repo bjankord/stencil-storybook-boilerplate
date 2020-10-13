@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { html } from 'lit-html';
 import markdown from './readme.md';
 
@@ -6,17 +7,14 @@ export default {
   component: 'my-component',
   parameters: {
     notes: { markdown },
-  }
-}
+  },
+};
 
 const Template = ({
   first,
   middle,
   last,
-}) =>
-  html`
-    <my-component first="${first}" middle="${middle}" last="${last}"></my-component>
-  `;
+}) => html`<my-component first="${first}" middle="${middle}" last="${last}"></my-component>`;
 
 export const Default = Template.bind({});
 Default.args = {
@@ -33,5 +31,5 @@ Default.argTypes = {
   },
   last: {
     description: 'The last name',
-  }
-}
+  },
+};
