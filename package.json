@@ -55,7 +55,7 @@
     "postcss": "8.3.11",
     "puppeteer": "11.0.0",
     "react-is": "17.0.2",
-    "stylelint": "14.0.1",
+    "stylelint": "14.1.0",
     "stylelint-config-sass-guidelines": "9.0.1",
     "typescript": "4.4.4",
     "write-file-webpack-plugin": "4.5.1"
