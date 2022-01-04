@@ -23,7 +23,7 @@
     "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
-    "@stencil/core": "2.12.0"
+    "@stencil/core": "2.12.1"
   },
   "devDependencies": {
     "@babel/core": "7.16.7",
