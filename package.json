@@ -35,7 +35,7 @@
     "@storybook/addon-notes": "5.3.21",
     "@storybook/web-components": "6.4.22",
     "@types/jest": "27.4.1",
-    "@types/node": "16.11.31",
+    "@types/node": "16.11.32",
     "@types/puppeteer": "5.4.6",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
