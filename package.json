@@ -52,7 +52,7 @@
     "jest-cli": "27.5.1",
     "lit-html": "2.2.4",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.13",
+    "postcss": "8.4.14",
     "puppeteer": "13.7.0",
     "react-is": "18.1.0",
     "stylelint": "14.8.2",
