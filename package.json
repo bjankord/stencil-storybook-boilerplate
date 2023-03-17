@@ -47,7 +47,7 @@
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.10",
     "gh-pages": "4.0.0",
-    "husky": "7.0.4",
+    "husky": "8.0.3",
     "jest": "27.5.1",
     "jest-cli": "27.5.1",
     "lit-html": "2.4.0",
